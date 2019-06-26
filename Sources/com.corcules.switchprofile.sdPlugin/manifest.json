@@ -1,0 +1,31 @@
+{
+  "Profiles": [
+      { "Name": "Coda HTML", "ReadOnly": true, "DeviceType": 2 },
+      { "Name": "Coda PHP", "ReadOnly": true, "DeviceType": 2 },
+      { "Name": "Coda CSS", "ReadOnly": true, "DeviceType": 2 },
+      { "Name": "Coda JS", "ReadOnly": true, "DeviceType": 2 }
+  ],
+  "SDKVersion": 2,
+  "Author": "Corcules",
+  "CodePath": "corculesSwitchProfile",
+  "Description": "SwitchProfile Corcules",
+  "Name": "Switch Profile",
+  "Icon": "pluginIcon",
+  "URL": "https://www.corcules.com",
+  "Version": "1.2",
+  "OS": [
+    {
+        "Platform": "mac",
+        "MinimumVersion" : "10.11"
+    }
+  ],
+  "Software":
+    {
+        "MinimumVersion" : "4.1"
+    },
+    "ApplicationsToMonitor": {
+  	"mac": [
+		"com.panic.Coda2"
+	]
+  }
+}
